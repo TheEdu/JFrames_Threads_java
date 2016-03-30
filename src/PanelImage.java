@@ -18,7 +18,7 @@ public class PanelImage extends JPanel {
 
 	public PanelImage(){
 	
-		fondo = this.getClass().getResource("/Imagen/Negro1.jpg");
+		fondo = this.getClass().getResource("/Imagen/Negro.jpg");
 		imagenFondo = new ImageIcon(fondo).getImage();
 		
 		
