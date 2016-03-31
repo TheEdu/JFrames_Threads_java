@@ -24,7 +24,8 @@ public class PanelImage extends JPanel {
 		Image imagenFondo;
 		URL fondo;
 		super.paintComponent(grafico);
-		fondo = this.getClass().getResource("/Imagen/Negro.jpg");
+		fondo = this.getClass().getResource("/Imagen/forceNiga.jpg");
+		//fondo = this.getClass().getResource("/Imagen/3E0.gif");
 		imagenFondo = new ImageIcon(fondo).getImage();
 		grafico.drawImage(imagenFondo, 0, 0, getWidth(),getHeight(),null);
 		

@@ -13,7 +13,7 @@ public class HiloTest  extends Thread{
 	
 	public void run(){
 		while(seguirHilo){
-			VentanaLoca ventanaLoca = new VentanaLoca();
+			VentanaLocaLabel ventanaLoca = new VentanaLocaLabel();
 			ventanaLoca.enloquecer(x, y);
 			pararHilo(true);
 		}
